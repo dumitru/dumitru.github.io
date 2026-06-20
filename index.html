@@ -1,273 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Dumitru Condrea</title>
-
-<meta name="description"
-content="Mobile applications developed by Dumitru Condrea.">
-
-<style>
-
-*{
-    box-sizing:border-box;
-}
-
-body{
-    margin:0;
-    font-family:Segoe UI,Arial,sans-serif;
-    background:#f4f7fb;
-    color:#222;
-}
-
-header{
-
-    background:linear-gradient(135deg,#0b4ea2,#0078ff);
-
-    color:white;
-
-    padding:70px 20px;
-
-    text-align:center;
-
-}
-
-header h1{
-
-    font-size:54px;
-    margin:0;
-
-}
-
-header p{
-
-    font-size:22px;
-    opacity:.9;
-
-}
-
-.container{
-
-    max-width:1200px;
-
-    margin:auto;
-
-    padding:50px 20px;
-
-}
-
-.grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-    gap:30px;
-
-}
-
-.card{
-
-    background:white;
-
-    border-radius:20px;
-
-    overflow:hidden;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-
-    transition:.25s;
-
-}
-
-.card:hover{
-
-    transform:translateY(-6px);
-
-}
-
-.card img{
-
-    width:100%;
-
-    height:220px;
-
-    object-fit:cover;
-
-}
-
-.content{
-
-    padding:25px;
-
-}
-
-.content h2{
-
-    margin-top:0;
-
-}
-
-.buttons{
-
-    margin-top:25px;
-
-}
-
-.button{
-
-    display:inline-block;
-
-    padding:12px 22px;
-
-    background:#0b67d3;
-
-    color:white;
-
-    text-decoration:none;
-
-    border-radius:10px;
-
-    margin-right:10px;
-
-}
-
-.button.secondary{
-
-    background:#eef3fb;
-
-    color:#0b67d3;
-
-}
-
-footer{
-
-    margin-top:80px;
-
-    background:#0d1b2a;
-
-    color:white;
-
-    text-align:center;
-
-    padding:35px;
-
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dumitru Condrea</title>
+    <meta name="description" content="Mobile applications developed by Dumitru Condrea.">
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Segoe UI,Arial,sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg,#0b4ea2,#0078ff);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+            header h1 {
+                font-size: 54px;
+                margin: 0;
+            }
+
+            header p {
+                font-size: 22px;
+                opacity: .9;
+            }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,.08);
+            transition: .25s;
+        }
+
+            .card:hover {
+                transform: translateY(-6px);
+            }
+
+            .card img {
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+            }
+
+        .content {
+            padding: 25px;
+        }
+
+            .content h2 {
+                margin-top: 0;
+            }
+
+        .buttons {
+            margin-top: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #0b67d3;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+
+            .button.secondary {
+                background: #eef3fb;
+                color: #0b67d3;
+            }
+
+        footer {
+            margin-top: 80px;
+            background: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+    </style>
 </head>
-
 <body>
-
-<header>
-
-<h1>Dumitru Condrea</h1>
-
-<p>
-Simple. Fast. Useful Applications.
-</p>
-
-</header>
-
-<div class="container">
-
-<h2>Applications</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<img src="bnm-exchange-rates/assets/feature-graphic.png">
-
-<div class="content">
-
-<h2>BNM Exchange Rates</h2>
-
-<p>
-
-Official exchange rates from the National Bank of Moldova with currency converter, historical charts, favorites and offline support.
-
-</p>
-
-<div class="buttons">
-
-<a class="button"
-href="https://play.google.com/store/apps/details?id=com.aistudio.exchangeconverter.bnmqwx">
-
-Google Play
-
-</a>
-
-<a class="button secondary"
-href="bnm-exchange-rates/">
-
-Learn More
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Future Application -->
-
-<!-- <div class="card"> -->
-
-<!-- <img src="assets/coming-soon.jpg"> -->
-
-<!-- <div class="content"> -->
-
-<!-- <h2>Coming Soon</h2> -->
-
-<!-- <p> -->
-
-<!-- More productivity and finance applications are currently in development. -->
-
-<!-- </p> -->
-
-<!-- </div> -->
-
-<!-- </div> -->
-
-<!-- Future Application -->
-
-<!-- <div class="card"> -->
-
-<!-- <img src="assets/coming-soon.jpg"> -->
-
-<!-- <div class="content"> -->
-
-<!-- <h2>Coming Soon</h2> -->
-
-<!-- <p> -->
-
-<!-- Stay tuned for more Android applications from AI Studio. -->
-
-<!-- </p> -->
-
-<!-- </div> -->
-
-<!-- </div> -->
-
-</div>
-
-</div>
-
-<footer>
-
-<p>
-
-© 2026 AI Studio
-
-</p>
-
-</footer>
-
+    <header>
+        <h1>Dumitru Condrea</h1>
+        <p>
+            Simple. Fast. Useful Applications.
+        </p>
+    </header>
+    <div class="container">
+        <h2>Applications</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="bnm-exchange-rates/assets/feature-graphic.png">
+                <div class="content">
+                    <h2>BNM Exchange Rates</h2>
+                    <p>
+                        Official exchange rates from the National Bank of Moldova with currency converter, historical charts, favorites and offline support.
+                    </p>
+                    <div class="buttons">
+                        <a class="button" href="https://play.google.com/store/apps/details?id=com.aistudio.exchangeconverter.bnmqwx">
+                            Google Play
+                        </a>
+                        <a class="button secondary" href="bnm-exchange-rates/">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            © 2026 Dumitru Condrea. All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>
