@@ -9,13 +9,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+    .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+</style>
 </head>
 <body>
 <header class="hero">
   <div class="container">
     <h1>Dumitru Condrea</h1>
     <p class="tag">Senior Software Engineer</p>
-    <p class="lead">Building reliable software with C#, .NET, SQL Server, WinForms and Android. Passionate about modernizing enterprise systems, automation and open source.</p>
+    <p class="lead">Building reliable software with C#, .NET, SQL Server, WinForms, Delphi, Firebird/Interbase SQL and Android. Passionate about modernizing enterprise systems, automation and open source.</p>
     <div class="buttons">
       <a href="https://github.com/dumitru" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/dumitrucondrea/" target="_blank">LinkedIn</a>
@@ -31,7 +38,25 @@
 </section>
 
 <section class="grid">
-<div class="card">
+    <div class="card">
+        <img src="bnm-exchange-rates/assets/feature-graphic.png">
+        <div class="content">
+            <h2>BNM Exchange Rates</h2>
+            <p>
+                Official exchange rates from the National Bank of Moldova with currency converter, historical charts, favorites and offline support.
+            </p>
+            <div class="buttons">
+                <a class="button" href="https://play.google.com/store/apps/details?id=com.aistudio.exchangeconverter.bnmqwx">
+                    Google Play
+                </a>
+                <a class="button secondary" href="bnm-exchange-rates/">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!--<div class="card">
 <h2>Featured Projects</h2>
 <ul>
 <li><strong>BNM Exchange Rates</strong> – Android application for National Bank of Moldova exchange rates.</li>
@@ -47,7 +72,7 @@
 <span>WinForms</span><span>Azure DevOps</span><span>GitHub</span>
 <span>REST APIs</span><span>Android</span><span>XML/XSLT</span>
 </div>
-</div>
+</div>-->
 </section>
 
 <section class="card">
