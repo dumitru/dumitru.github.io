@@ -61,6 +61,30 @@
             font-weight: bold;
         }
 
+        .button.disabled {
+            margin-left: 12px;
+            background: rgba(255,255,255,.08);
+            color: rgba(255,255,255,.55);
+            border: 1px solid rgba(255,255,255,.2);
+            cursor: not-allowed;
+        }
+
+            .button.disabled .soon {
+                display: inline-block;
+                margin-left: 8px;
+                padding: 2px 8px;
+                border-radius: 999px;
+                background: rgba(46,213,115,.18);
+                color: #2ed573;
+                font-size: 12px;
+                font-weight: 600;
+                vertical-align: middle;
+            }
+
+        @media (max-width: 600px) {
+            .button.disabled { margin-left: 0; margin-top: 12px; }
+        }
+
         section {
             padding: 70px 20px;
         }
@@ -124,6 +148,9 @@
                 <a class="button"
                    href="https://play.google.com/store/apps/details?id=com.dumitrucondrea.stream.radio7">
                     Download on Google Play
+                </a>
+                <a class="button disabled" aria-disabled="true" role="link" title="Coming soon">
+                    Download on the App Store <span class="soon">Coming soon</span>
                 </a>
             </div>
         </div>

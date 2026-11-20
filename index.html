@@ -15,6 +15,17 @@
         height: 220px;
         object-fit: cover;
     }
+    .buttons a.disabled {
+        background: transparent;
+        color: #94a3b8;
+        border: 1px solid #334155;
+        cursor: not-allowed;
+    }
+    .buttons a.disabled small {
+        margin-left: .4rem;
+        color: #93c5fd;
+        font-weight: 600;
+    }
 </style>
 </head>
 <body>
@@ -66,6 +77,9 @@
             <div class="buttons">
                 <a class="button" href="https://play.google.com/store/apps/details?id=com.dumitrucondrea.stream.radio7">
                     Google Play
+                </a>
+                <a class="button disabled" aria-disabled="true" role="link" title="Coming soon">
+                    App Store <small>Coming soon</small>
                 </a>
                 <a class="button secondary" href="radio-7-moldova/">
                     Learn More
